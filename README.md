@@ -23,12 +23,12 @@ This is the code for the 2024 ICASSP paper: LEARNING FROM EASY TO HARD: MULTI-TA
 **Please cite our paper if you use the code:**
 ```
 @inproceedings{Liu2024SLDS
-  author    = {Zeyu Liu and
-               Heyan Chai and
-               Qing Liao},
-  title     = {LEARNING FROM EASY TO HARD: MULTI-TASK LEARNING WITH DATA SCHEDULING},
-  booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  year={2024},
-  organization={IEEE}
+  author       = {Zeyu Liu and
+                  Heyan Chai and
+                  Qing Liao},
+  title        = {LEARNING FROM EASY TO HARD: MULTI-TASK LEARNING WITH DATA SCHEDULING},
+  booktitle    = {ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year         = {2024},
+  organization = {IEEE}
 }
 ```
