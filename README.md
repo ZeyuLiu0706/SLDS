@@ -4,25 +4,20 @@ MTL with data scheduler (assigns larger weights to easy samples during early tra
 ![SLDS Diagram](https://github.com/ZeyuLiu0706/SLDS/blob/main/img/SLDS.png)
 ## Quick Start 
 ```python
-python main_fed.py -algo fedgr/fednova/fedavg/fedopt/moon -dataset cifar10/cifar100/fashion-mnist
+python NYUv2_SLDS.py 
 ```
 ## Citation
-This is the code for the 2023 DASFAA paper: FedGR: Federated Learning with Gravitation Regulation for Double Imbalance Distribution.
+This is the code for the 2024 ICASSP paper: LEARNING FROM EASY TO HARD: MULTI-TASK LEARNING WITH DATA SCHEDULING.
 **Please cite our paper if you use the code:**
 ```
-@inproceedings{Guo2023FedGR
-  author    = {Songyue Guo and
-               Xu Yang and
-               Jiyuan Feng and
-               Ye Ding and 
-               Wei Wang and
-               Yunqing Feng and
+@inproceedings{Liu2024SLDS
+  author    = {Zeyu Liu and
+               Heyan Chai and
                Qing Liao},
-  title     = {FedGR: Federated Learning with Gravitation Regulation for Double Imbalance Distribution
+  title     = {LEARNING FROM EASY TO HARD: MULTI-TASK LEARNING WITH DATA SCHEDULING
 },
-  booktitle = {Database Systems for Advanced Applications - 28th International Conference,
-               {DASFAA} 2023, Tianjin, China, April 17-20, 2023},
-  publisher = {Springer},
-  year      = {2023}
+  booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2024},
+  organization={IEEE}
 }
 ```
