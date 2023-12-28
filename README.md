@@ -6,6 +6,14 @@ MTL with data scheduler (assigns larger weights to easy samples during early tra
 ```python
 python NYUv2_SLDS.py --data_path ./data/nyuv2
 ```
+
+## Datasets
+
+The `MultiMNIST` can be found [here](https://github.com/intel-isl/MultiObjectiveOptimization).
+
+The `NYUv2` can be found [here](https://drive.google.com/file/d/11pWuQXMFBNMIIB4VYMzi9RPE-nMOBU8g/view).
+
+
 ## Citation
 This is the code for the 2024 ICASSP paper: LEARNING FROM EASY TO HARD: MULTI-TASK LEARNING WITH DATA SCHEDULING.
 
