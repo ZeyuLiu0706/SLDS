@@ -5,6 +5,8 @@ MTL with data scheduler (assigns larger weights to easy samples during early tra
 ## Quick Start 
 ```python
 python NYUv2_SLDS.py --data_path ./data/nyuv2
+
+python MULTIMNIST_SLDS.py --data_path ./data/multimnist
 ```
 
 ## Datasets
