@@ -9,9 +9,9 @@ python NYUv2_SLDS.py --data_path ./data/nyuv2
 
 ## Datasets
 
-The `MultiMNIST` can be found [here](https://github.com/intel-isl/MultiObjectiveOptimization).
+The `MultiMNIST` Dataset can be found [here](https://github.com/intel-isl/MultiObjectiveOptimization).
 
-The `NYUv2` can be found [here](https://drive.google.com/file/d/11pWuQXMFBNMIIB4VYMzi9RPE-nMOBU8g/view).
+The `NYUv2` Dataset can be found [here](https://drive.google.com/file/d/11pWuQXMFBNMIIB4VYMzi9RPE-nMOBU8g/view).
 
 
 ## Citation
