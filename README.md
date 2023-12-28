@@ -2,7 +2,7 @@
 MTL with data scheduler (assigns larger weights to easy samples during early training stage and gradually treat all samples equally)
 ## SLDS
 ![SLDS Diagram](https://github.com/ZeyuLiu0706/SLDS/blob/main/img/SLDS.png)
-Data effects on gradients and data difficulty analysis on a 2D MTL system with 3 samples. $∇_θL_j$ is the gradient of task j , $∇_θl_{ji}$ is the gradient of task j under the effect of sample i. The direction and length of the arrow represent the task gradient direction and magnitude respectively. The gradient relationships between tasks vary under the effects of different samples. The sample lead to less gradient conflict is defined as easy sample (shown as sample 2).
+Data effects on gradients and data difficulty analysis on a 2D MTL system with 3 samples. $∇_θL_j$ is the gradient of task $j$ , $∇_θl_{ji}$ represents the gradient of task $j$ under the effect of sample $i$. The direction and length of the arrow represent the task gradient direction and magnitude respectively. The gradient relationships between tasks vary under the effects of different samples. The sample lead to less gradient conflict is defined as easy sample (shown as sample 2).
 ## Quick Start 
 ```python
 python NYUv2_SLDS.py --data_path ./data/nyuv2
