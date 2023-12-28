@@ -1,7 +1,7 @@
 # ICASSP 2024 - LEARNING FROM EASY TO HARD: MULTI-TASK LEARNING WITH DATA SCHEDULING
 Multi-task learning with data scheduler (assigns larger weights to easy samples during early training stage and gradually treat all samples equally)
-## Framework of FedGR
-![SLDS Diagram]([https://github.com/ZeyuLiu0706/SLDS/img/SLDS.png](https://github.com/ZeyuLiu0706/SLDS/blob/main/img/SLDS.png))
+## SLDS
+![SLDS Diagram](https://github.com/ZeyuLiu0706/SLDS/blob/main/img/SLDS.png)
 ## Quick Start 
 ```python
 python main_fed.py -algo fedgr/fednova/fedavg/fedopt/moon -dataset cifar10/cifar100/fashion-mnist
