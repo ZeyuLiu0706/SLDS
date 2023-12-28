@@ -1,22 +1,7 @@
-# ICASSP 2024 - LEARNING FROM EASY TO HARD: MULTI-TASK LEARNING WITH DATA SCHEDULING  
+# ICASSP 2024 - LEARNING FROM EASY TO HARD: MULTI-TASK LEARNING WITH DATA SCHEDULING
 Multi-task learning with data scheduler (assigns larger weights to easy samples during early training stage and gradually treat all samples equally)
 ## Framework of FedGR
-![Framework of FedGR]
-## Part of Experiment Results (full results are listed in our paper)
- | Algorithms      |        CIFAR-10 (2)        |       CIFAR-10 (3)        |       CIFAR-100 (20)       |      CIFAR-100 (30)       |
-| --------------- | :------------------------: | :-----------------------: | :------------------------: | :------------------------: |
-|                 |           Acc(%)           |          Acc(%)           |           Acc(%)           |           Acc(%)           |
-| FedAvg          |           50.36            |           53.76           |           36.15            |           42.19            |
-| FedProx         |           48.84            |           54.94           |           36.24            |           42.21            |
-| FedNova         |           56.33            |           68.63           |           38.63            |           45.35            |
-| SCAFFOLD        |           57.37            |           67.32           |           38.43            |           46.82            |
-| PerFedAvg       |           44.67            |           54.87           |           35.98            |           40.14            |
-| pFedMe          |           45.81            |           50.18           |           35.36            |           40.18            |
-| FedOpt          |           62.37            |           70.63           |           42.37            |           49.63            |
-| MOON            |           61.45            |           70.45           |           40.53            |           47.91            |
-| FedRS           |        <u>63.22</u>        |       <u>73.56</u>        |        <u>42.76</u>        |           50.73            |
-| FedGC           |           62.91            |           72.11           |           42.11            |           50.21            |
-| **FedGR(ours)** | **67.84** | **77.86** | **45.44** | **53.16** |
+![SLDS Diagram](https://github.com/ZeyuLiu0706/SLDS/img/SLDS.png)
 ## Quick Start 
 ```python
 python main_fed.py -algo fedgr/fednova/fedavg/fedopt/moon -dataset cifar10/cifar100/fashion-mnist
